@@ -5,7 +5,7 @@ import matplotlib
 import numpy as np
 from matplotlib.widgets import CheckButtons
 
-
+# comment
 def configure_interactive_backend() -> None:
     forced_backend = matplotlib.get_backend().lower()
     if "agg" not in forced_backend:
